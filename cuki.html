@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio [Nama]</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .portfolio-item {
+            background: #333;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: #222;
+            color: #fff;
+        }
+
+        .cta-button {
+            background-color: #00bcd4;
+            padding: 15px 25px;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#halaman">Halaman</a>
+        <a href="#about">Projek/a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">kontak</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+    <h1>selamat datang di website boby</h1>
+    </div>
+    <h2>ini cuman gabut guys</h2>
+ </div>
+
+
+</div>
+    <a href="#portfolio" class="cta-button">Lihat Portofolio</a>
+</div>
+
+<section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah seorang web developer!</p>
+</section>
+
+<section id="portfolio">
+    <h2>Portofolio</h2>
+    <div class="portfolio-grid">
+        <div class="portfolio-item">
+            <img src="anime1.jpg" alt="Project 1">
+            <h3>Proyek 1</h3>
+            <p>Deskripsi singkat tentang proyek ini.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Proyek 2</h3>
+            <p>Deskripsi singkat tentang proyek ini.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Kontak</h2>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Nama" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Pesan" rows="4" required></textarea>
+        <button type="submit" class="cta-button">Kirim Pesan</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 [fajri]. terimakasih</p>
+</footer>
+
+</body>
+</html>
